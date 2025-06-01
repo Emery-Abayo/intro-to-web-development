@@ -1,4 +1,4 @@
-/* Removes unwanted styling from the page */
+/* Removes unwanted styling from the page
 *,
 *::before,
 *::after {
@@ -11,3 +11,129 @@
 }
 
 /* Write your code below this */
+.navbar {
+  width: 100%;
+  padding: 26px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 12px;
+}
+.hero {
+  background-image: url('/images/hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+button {
+  margin-top: 35px;
+  padding: 12px 30px;
+  background: #52647E;
+  color: white;
+  border-radius: 10px;
+}
+.journey {
+  background: #618379;
+  padding: 57px 0;
+}
+
+h2 {
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 57px;
+}
+
+.journey-list {
+  display: flex;
+  width: 80%;
+  margin: 0 10%;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 25px;
+}
+
+.journey-card {
+  width: 30%;
+  background-color: white;
+  padding: 25px;
+  border-radius: 40px;
+  color: gray;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.journey-image {
+  border-radius: 21px;
+  margin-bottom: 25px;
+  width: 355px;
+  height: 345px;
+  object-fit: cover;
+  display: block;
+  gap: 21px;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: black;
+  text-align: center;
+}
+footer {
+  background: #333232;
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
+.goals-section {
+  padding: 60px;
+  background-color: #dedcdc;
+  text-align: center;
+}
+.about-section {
+  padding: 60px;
+  background-color: #fffefe;
+  text-align: center;
+}
+
+.about-section h2,
+.goals-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about-section p,
+.goals-section p {
+  font-size: 18px;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto;
+}
+html {
+  scroll-behavior: smooth;
+}
+.navbar ul {
+  list-style-type: disc;
+  text-align: left;
+  padding-left: 40px;
+}
